@@ -1,0 +1,8 @@
+I need a calculator but only have a webrowser... Can you help me?
+
+Your token for this challenge: 725:91e2f4c8a19ccdb823e5fd9af13e36a66bbd857c
+
+nc 78.46.224.85 $((0xf1f0))
+
+Hints:
+Beware that the IFUNC mechanism (https://sourceware.org/glibc/wiki/GNU_IFUNC) can cause the same function to be resolved to different implementations at runtime, thus potentially causing a locally working exploit to fail on the server. If in doubt, contact saelo in IRC ;)
